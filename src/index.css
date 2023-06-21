@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply mx-auto max-w-screen-2xl px-3 md:px-5;
+}
+
+.reset-navstyle {
+  @apply appearance-none bg-transparent border-none text-current;
+}
+
+ul.menu li a.active{
+  @apply underline underline-offset-8 font-bold;
+}
+
+.menu-style{
+  @apply hover:bg-transparent hover:underline hover:underline-offset-8 focus:bg-transparent text-lg
+}
